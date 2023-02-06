@@ -1,0 +1,305 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: rgb(37, 36, 36);
+}
+header {
+  background-image: url("imagen-banner3.jpeg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  height: 1100px;
+  width: 1075px;
+  background-color: rgb(250, 175, 114);
+  opacity: calc(80%);
+}
+h1 {
+  color: white;
+
+  padding: 15% 8%;
+  font-size: 110px;
+}
+.boxspan {
+  border: 1px solid black;
+  width: 730px;
+  height: 50px;
+  display: flex;
+  margin-left: 8%;
+  background-color: black;
+  align-items: center;
+
+  margin-top: -13%;
+}
+span {
+  color: white;
+  font-size: 32px;
+  margin-left: 5%;
+}
+.Usuario > input {
+  margin-left: 65%;
+  display: flex;
+  flex-direction: column;
+  margin-top: -35%;
+  position: absolute;
+  width: 25%;
+  height: 60px;
+  color: black;
+  font-size: 30px;
+}
+
+.contrasena > input {
+  margin-left: 65%;
+  display: flex;
+  flex-direction: column;
+  margin-top: -29%;
+  position: absolute;
+  width: 25%;
+  height: 60px;
+  color: black;
+  font-size: 30px;
+}
+
+.button > input {
+  margin-left: 65%;
+  display: flex;
+  flex-direction: column;
+  margin-top: -23%;
+  position: absolute;
+  width: 24%;
+  height: 58px;
+  color: white;
+  font-size: 30px;
+  justify-content: center;
+
+  background-color: orangered;
+  border-radius: 7px;
+  border: none;
+}
+
+.section1 {
+  height: 100vh;
+  background-color: #e69f85;
+}
+
+.box2 {
+  background-color: rgb(224, 105, 61);
+  display: flex;
+  width: 100%;
+  height: 15%;
+}
+
+.box2 > span {
+  color: white;
+  font-size: 45px;
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.box2 > p {
+  margin-left: 550px;
+  color: white;
+  font-size: 35px;
+  margin-top: 2%;
+}
+
+.box3 {
+  display: flex;
+  width: 100%;
+  height: 20%;
+}
+
+.box3 > p {
+  color: black;
+  font-size: 40px;
+  margin-top: 3%;
+  margin-left: 4%;
+  font-weight: bold;
+}
+.box3 > button {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(210, 95, 54);
+  height: 32%;
+  width: 7%;
+  border-radius: 7px;
+  border: none;
+  margin-top: 3.5%;
+  margin-left: 3%;
+}
+
+table {
+  font-size: 40px;
+  border-spacing: 110px 20px;
+  margin-left: -3%;
+}
+th {
+  text-align: left;
+}
+
+.editar {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(210, 95, 54);
+  height: 7vh;
+  width: 12vh;
+  border-radius: 7px;
+  border: none;
+}
+.eliminar {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(210, 95, 54);
+  height: 7vh;
+  width: 15vh;
+  border-radius: 7px;
+  border: none;
+  margin-left: -80%;
+}
+
+.section2 {
+  background-color: #e69f85;
+  opacity: calc(40%);
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+
+}
+
+.box4 {
+  background-color: rgb(224, 105, 61);
+  display: flex;
+  width: 100%;
+  height: 15%;
+}
+
+.box4 > span {
+  color: white;
+  font-size: 45px;
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.box4 > p {
+  margin-left: 550px;
+  color: white;
+  font-size: 35px;
+  margin-top: 2%;
+}
+
+.box5 {
+  display: flex;
+  width: 100%;
+  height: 20%;
+}
+
+.box5 > p {
+  color: black;
+  font-size: 40px;
+  margin-top: 3%;
+  margin-left: 4%;
+  font-weight: bold;
+}
+.box5 > button {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(210, 95, 54);
+  height: 36%;
+  width: 7%;
+  border-radius: 7px;
+  border: none;
+  margin-top: 3.5%;
+  margin-left: 3%;
+}
+
+.form {
+ 
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 520px;
+  margin-left: 150px;
+ 
+  margin-top: 7.2%;
+  position: relative;
+
+}
+
+.close {
+  color: orangered;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: end;
+  margin-right: 5%;
+}
+p {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+label {
+  color: black;
+  font-size: 35px;
+  margin-left: 20%;
+  font-size: 30px;
+}
+
+.marca input{
+   width: 300px;
+   height: 40px;
+   margin-left: 17%;
+   margin-top: 5%;
+   border-color:orangered;
+   
+
+}
+
+.puertas input{
+  width: 300px;
+  height: 40px;
+  margin-left: 2.8%;
+  margin-top: 2%;
+  border-color: orangered;
+  
+
+}
+
+.maletas input{
+  width: 300px;
+  height: 40px;
+  margin-left: 2.2%;
+  margin-top: 2%;
+  border-color: orangered;
+
+}
+
+.imagen input{
+  width: 300px;
+  height: 40px;
+  margin-left: 9%;
+  margin-top: 2%;
+  border-color: orangered;
+
+}
+
+button{
+  color:white;
+  background-color: orangered;
+margin-top: 3%;
+width: 90px;
+height: 40px;
+font-size: 20px;
+border-radius: 7px;
+border: none;
+margin-left: 66%;
+}
